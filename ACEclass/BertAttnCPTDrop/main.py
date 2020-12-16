@@ -13,7 +13,7 @@ Use in the framework and cannot remove.
 parser.add_argument('--debug', type=str2bool, default=False, help='Debug?')
 parser.add_argument('--task', default='train', help='train | evaluate')
 
-parser.add_argument('--data_dir', default='../data/imdb_data', 
+parser.add_argument('--data_dir', default='../data/newsroom_data', 
                     help='data dir')
 parser.add_argument('--file_train', default='train', help='train data.')
 parser.add_argument('--file_val', default='dev', help='dev data')
@@ -58,7 +58,7 @@ parser.add_argument('--device', default="cuda:0", help='device')
 # shared
 parser.add_argument('--n_concepts', type=int, default=10,
                     help='number of concepts')
-parser.add_argument('--n_class', type=int, default=2, help='number of clsses')
+parser.add_argument('--n_class', type=int, default=5, help='number of clsses')
 parser.add_argument('--review_max_lens', type=int,
                     default=512, help='max length documents.')
 # dropout
