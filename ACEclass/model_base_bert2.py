@@ -3,16 +3,10 @@
 Please contact tshi@vt.edu
 '''
 import json
-import os
-import pickle
-import time
 
-import numpy as np
 import torch
 from torch.autograd import Variable
-from transformers import BertModel, BertTokenizer
-
-from LeafNATS.data.utils import load_vocab_pretrain
+from transformers import BertTokenizer
 
 from .model_base import modelClassificationBase
 
@@ -55,7 +49,7 @@ class modelClassificationBaseBert(modelClassificationBase):
 
         review_arr = [itm[:review_lens] for itm in review_arr]
         review_arr = [itm + [0 for _ in range(review_lens-len(itm))]
-                    for itm in review_arr]
+                      for itm in review_arr]
 
         review_var = Variable(torch.LongTensor(review_arr))
         rating_var = Variable(torch.LongTensor(rating_arr))

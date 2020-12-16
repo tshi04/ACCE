@@ -4,13 +4,10 @@ Please contact tshi@vt.edu
 '''
 import json
 import os
-import time
 
-import numpy as np
 import torch
-from torch.autograd import Variable
-
 from LeafNATS.data.utils import load_vocab_pretrain
+from torch.autograd import Variable
 
 from .model_base import modelClassificationBase
 
@@ -79,7 +76,7 @@ class modelClassificationBasePreEmb(modelClassificationBase):
 
         review_arr = [itm[:review_lens] for itm in review_arr]
         review_arr = [itm + [vocab2id['<pad>']] *
-                    (review_lens-len(itm)) for itm in review_arr]
+                      (review_lens-len(itm)) for itm in review_arr]
 
         review_var = Variable(torch.LongTensor(review_arr))
         rating_var = Variable(torch.LongTensor(rating_arr))

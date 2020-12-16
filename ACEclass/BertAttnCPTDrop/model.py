@@ -4,12 +4,10 @@ Please contact tshi@vt.edu
 '''
 import numpy as np
 import torch
-import torch.nn.functional as F
-from torch.autograd import Variable
-
 from ACEclass.model_base_bert import modelClassificationBaseBert
 from LeafNATS.modules.attention.attention_concepts import Attention_Concepts
 from LeafNATS.modules.attention.attention_self import AttentionSelf
+from torch.autograd import Variable
 from transformers import BertModel, BertTokenizer
 
 tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')

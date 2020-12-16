@@ -4,7 +4,6 @@ Please contact tshi@vt.edu
 '''
 import json
 import os
-import time
 
 import numpy as np
 import torch
@@ -12,7 +11,6 @@ from sklearn.metrics import accuracy_score
 from torch.autograd import Variable
 
 from ACEclass.end2end_class import End2EndBaseClassification
-from LeafNATS.data.utils import construct_vocab
 
 
 class modelClassificationBase(End2EndBaseClassification):

@@ -3,12 +3,7 @@
 Please contact tshi@vt.edu
 Based on Lin Zhouhan(@hantek) visualization codes.
 '''
-import os
-import random
 from codecs import open
-
-import numpy
-import scipy
 
 
 def createHTML(input_data, fileName):

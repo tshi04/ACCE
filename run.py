@@ -1,2 +1,3 @@
 ### Automatic Corpus-level and Concept Based Explanation for Document Classification
-from ACEclass.RNNattnWECPTDrop.main import *
+from ACEclass.BertAttnCPTDrop.main import *
+from ACEclass.RNNAttnWECPTDrop.main import *

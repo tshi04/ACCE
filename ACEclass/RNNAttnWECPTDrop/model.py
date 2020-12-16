@@ -4,13 +4,11 @@ Please contact tshi@vt.edu
 '''
 import numpy as np
 import torch
-import torch.nn.functional as F
-from torch.autograd import Variable
-
 from ACEclass.model_base_pre_emb import modelClassificationBasePreEmb
 from LeafNATS.modules.attention.attention_concepts import Attention_Concepts
 from LeafNATS.modules.attention.attention_self import AttentionSelf
 from LeafNATS.modules.encoder.encoder_rnn import EncoderRNN
+from torch.autograd import Variable
 
 
 class modelClassification(modelClassificationBasePreEmb):

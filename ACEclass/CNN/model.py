@@ -3,9 +3,6 @@
 Please contact tshi@vt.edu
 '''
 import torch
-import torch.nn.functional as F
-from torch.autograd import Variable
-
 from ACEclass.model_base import modelClassificationBase
 from LeafNATS.modules.encoder.encoder_cnn import EncoderCNN
 

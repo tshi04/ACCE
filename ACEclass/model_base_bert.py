@@ -3,14 +3,9 @@
 Please contact tshi@vt.edu
 '''
 import json
-import os
-import time
 
-import numpy as np
 import torch
 from torch.autograd import Variable
-
-from LeafNATS.data.utils import load_vocab_pretrain
 
 from .model_base import modelClassificationBase
 

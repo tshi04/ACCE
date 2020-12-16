@@ -2,18 +2,12 @@
 @author Tian Shi
 Please contact tshi@vt.edu
 '''
-import glob
-import json
 import os
 import pickle
-import re
-import shutil
-import time
 from pprint import pprint
 
 import numpy as np
 import torch
-from torch.autograd import Variable
 
 from LeafNATS.data.utils import create_batch_memory
 from LeafNATS.engines.end2end_small import End2EndBase

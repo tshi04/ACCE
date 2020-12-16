@@ -4,9 +4,6 @@ Please contact tshi@vt.edu
 '''
 import numpy as np
 import torch
-import torch.nn.functional as F
-from torch.autograd import Variable
-
 from ACEclass.model_base import modelClassificationBase
 from LeafNATS.modules.attention.attention_self import AttentionSelf
 from LeafNATS.modules.encoder.encoder_rnn import EncoderRNN
