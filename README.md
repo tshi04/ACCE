@@ -55,13 +55,12 @@ If you want to run baselines, you may need un-comment the corresponding line in 
 
 | Model | BRIEF | 
 | ------ | ------ |
-| mtCNN | CNN + Multi-Task Learning |
-| mtRNN | Bi-LSTM + Multi-Task Learning |
-| mtAttn | mtRNN + Self-Attention |
-| mtBertAttn | BERT + Multi-Task Learning + Self-Attention |
-| mtAttnDA | mtRNN + Deliberated Self-Attention |
-| MtAttnFE | mtAttn + Pretrained Embedding + Feature Enrichment |
-| FEDA | mtAttnDA + Pretrained Embedding + Feature Enrichment |
+| CNN | Convolutional Neural Network |
+| RNNAttn | Bi-LSTM + Self-Attention |
+| RNNAttnWE | RNNAttn + Pretrained Word Embedding |
+| RNNAttnWECPT | RNNAttnWE + Concept Based |
+| RNNAttnWECPTDrop | RNNAttnWECPT + Attention Weights Dropout |
+| Bert* | Replace RNN with BERT |
 
 # Use Pretrained Model
 
