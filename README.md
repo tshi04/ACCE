@@ -11,6 +11,7 @@ This repository is a pytorch implementation for the following arxiv paper:
 
 #### [A Concept-based Abstraction-Aggregation Deep Neural Network for Interpretable Document Classification](https://arxiv.org/pdf/2004.13003.pdf)
 [Tian Shi](http://people.cs.vt.edu/tshi/homepage/home), 
+[Xuchao Zhang](https://xuczhang.github.io/), 
 [Ping Wang](http://people.cs.vt.edu/ping/homepage/), 
 [Chandan K. Reddy](http://people.cs.vt.edu/~reddy/)
 
