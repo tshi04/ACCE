@@ -38,6 +38,7 @@ Please download processed dataset from here. Place them along side with DMSC_FED
 |    |    |--- vocab
 |    |    |--- vocab_glove_42B_300d
 |--- nats_results (results, automatically build)
+```
 
 ## Usuage
 
